@@ -1,0 +1,354 @@
+html{
+	color:#000;
+	background:#FFF;
+}
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3,
+h4, h5, h6, pre, code, form, fieldset, legend, input,
+textarea, p, blockquote, th, td {
+	margin:0;
+	padding:0;
+}
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+fieldset, img {
+	border:0;
+}
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style:normal;
+	font-weight:normal;
+}
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+ol, ul {
+	list-style:none;
+}
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+caption, th {
+	text-align:left;
+}
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+h1, h2, h3, h4, h5, h6 {
+
+	font-size:100%;
+	font-weight:normal;
+}
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+q:before, q:after {
+	content:'';
+}
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+abbr, acronym {
+	border:0;
+	font-variant:normal;
+}
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+sup {
+	vertical-align:text-top;
+}
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+sub {
+	vertical-align:text-bottom;
+}
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+input, textarea, select {
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+	*font-size:100%;
+}
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+legend {
+	color:#000;
+}
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+.category img{
+    margin: 25px;
+    width: 127px;
+    color: #0056d2;
+}
+.explore {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 45px;
+    background-color: #0056d2;
+    border-radius: 5%;
+}
+.explore h4 {
+    color: #FFF;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    top: 0px;
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+    position: relative;
+}
+
+.logo {
+    margin: 0 20px;
+}
+
+.d1 {
+    margin: 0 20px;
+}
+
+.placeholder {
+    padding-left: 5px;
+}
+
+.d1 input {
+    width: 300px;
+    height: 45px;
+    border: 1px solid gray; 
+    color: #0056d2;
+}
+.d1 button {
+    margin-left: -4px;
+    position: absolute; 
+    width: 47px;
+    height: 47px;
+    border: none;
+    background-color: #0056d2;
+    border-radius: 0 3px 3px 0;
+}
+.submit img {
+    margin: auto;
+    width: 25px;
+    height: 25px;
+}
+.category a {
+    text-decoration: none;
+}
+.category h1 {
+    width: 150px;
+    color: #000;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-size: 18px;
+}
+.category h2 {
+    width: 150px;
+    color: #000;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-size: 18px;
+}
+.category h3 {
+    width: 60px;
+    margin: 0 10px;
+    color: #0056d2;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-size: 18px;
+}
+.join-for-free {
+    margin: 0 10px;
+    width: 115px;
+    height: 45px;
+    background-color: #0056d2;
+    border-radius: 3px;
+}
+.join-for-free {
+    color: #FFF;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    width: 115px;
+    line-height: 40px;
+}
+
+.first {
+    margin: 0 20px;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.second-1 {
+    margin: 0 10px;
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.second-2 {
+    margin: 0 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.second {
+    padding: 0 20px;
+    margin: 0 20px;
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.personal {
+    padding: 0 300px;
+    margin: 0 300px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.head {
+    justify-content: space-between;
+}
+
+.top-line {
+    width: 100%;
+    margin-top: 5px;
+}
+.heading h1 {
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+}
+.heading h2 {
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: #000;
+    text-align: center;
+}
+.mid {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.photoes {
+    margin: 0 50px;
+    width: 300px;
+    float: left;
+    text-align: center;
+    display: inline;
+    margin-top: 50px;
+    display: block;
+}
+.photoes img {
+    display: flex;
+    margin-top: -20px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: block;
+}
+.photoes h1 {
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 600;
+    color: rgb(56, 45, 139);
+}
+.photoes h4 {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-weight: 600;
+    color: rgb(31, 31, 31);
+}
+.photoes h6 {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    color: rgb(31, 31, 31);
+}
+.photoes hr {
+    background-color:#0056d2;
+    display: inline-block;
+    height: 2px;
+    margin-top: 20px;
+    width: 69px;
+}
+.photoes h3 {
+    display: inline-block;
+    width: 300px;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    color: rgb(31, 31, 31);
+}
+.conteiner {
+    display: flex;
+}
+.arrow {
+    display: flex;
+    text-align: center;
+}
+.arrow1 {
+    display: block;
+    float: left;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.arrow2 {
+    float: right;
+    transform: rotate(180deg);
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.footer {
+    margin-top: 300px;
+    background-color: #0056d2;
+    width: auto;
+    height: 100px;
+}
+.address {
+    display: flex;
+}
+.address img {
+    margin-top: 20px;
+    margin-left: 70px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+.address h5 {
+    margin-left: 10px;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    font-size: 12px;
+}
+.telephon {
+    display: flex;
+}
+.telephon img {
+    margin-top: 60px;
+    margin-left: -135px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+.telephon h5 {
+    margin-left: 10px;
+    margin-top: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    font-size: 12px;
+}
+
+.conteiner.active {
+    display: block;
+}
+
+.slide {
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
